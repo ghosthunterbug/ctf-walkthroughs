@@ -14,4 +14,6 @@ CTF walkthroughs & pentest methodology - TryHackMe rooms.
 ## Rooms
 
 - [CyberHeroes](tryhackme/cyberheroes) — Authentication Bypass (auth côté client, OWASP A07)
+- [OWASP Juice Shop](tryhackme/owaspjuiceshop) — Web / OWASP Top 10 (SQLi, broken auth, IDOR, XSS)
+- [Poster](tryhackme/poster) — SQL / Boot2Root (PostgreSQL RCE)
 - [Room 404](tryhackme/room404)
