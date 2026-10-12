@@ -1,19 +1,24 @@
 # ctf-walkthroughs
 
-CTF walkthroughs & pentest methodology - TryHackMe rooms.
+CTF walkthroughs & pentest methodology — TryHackMe rooms.
 
-- **GhostBoss** — recon & navigation (Chromium/CDP), énumération web, sélection des rooms, payloads.
-- **GhostHunter** — scans (nmap/ffuf), exploitation, flags.
+## Methodology
 
-### Process d'une room
-1. Choisir la room (difficulté / thème OWASP).
-2. Connecter le VPN TryHackMe (`tun0` up), démarrer la machine, récupérer l'IP cible.
-3. Recon en parallèle : GhostBoss côté browser/web, GhostHunter côté scans.
-4. Exploitation → flag.
+Each room follows the same end-to-end process:
+
+1. **Recon** — port scan, service enumeration, web crawling.
+2. **Enumeration** — directory brute-force, source review, API discovery.
+3. **Exploitation** — identify the vulnerability, craft the payload.
+4. **Privilege escalation** — lateral movement to user/root.
+5. **Writeup** — methodology + commands (no raw flags, no internal IPs).
 
 ## Rooms
 
-- [CyberHeroes](tryhackme/cyberheroes) — Authentication Bypass (auth côté client, OWASP A07)
 - [OWASP Juice Shop](tryhackme/owaspjuiceshop) — Web / OWASP Top 10 (SQLi, broken auth, IDOR, XSS)
 - [Poster](tryhackme/poster) — SQL / Boot2Root (PostgreSQL RCE)
-- [Room 404](tryhackme/room404)
+- [CyberHeroes](tryhackme/cyberheroes) — Authentication Bypass (client-side auth, OWASP A07)
+- [Room 404](tryhackme/room404) — Web enum, exposed `.git`
+
+## Tooling
+
+`nmap` · `ffuf` · `gobuster` · `sqlmap` · `hydra` · `nikto` · Burp Suite · Python · Bash
