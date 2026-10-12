@@ -14,6 +14,7 @@ Each room follows the same end-to-end process:
 
 ## Rooms
 
+- [Bounty Hacker](tryhackme/bounty-hacker) — Boot2Root (FTP anon, hydra, sudo tar privesc)
 - [OWASP Juice Shop](tryhackme/owaspjuiceshop) — Web / OWASP Top 10 (SQLi, broken auth, IDOR, XSS)
 - [Poster](tryhackme/poster) — SQL / Boot2Root (PostgreSQL RCE)
 - [CyberHeroes](tryhackme/cyberheroes) — Authentication Bypass (client-side auth, OWASP A07)
