@@ -24,7 +24,7 @@ Each room follows the same end-to-end process:
 | [CyberHeroes](tryhackme/cyberheroes) | Easy | Authentication Bypass (client-side auth) |
 | [Room 404](tryhackme/room404) | Easy | Web enum, exposed `.git` |
 
-### Completed (no writeup yet)
+### ![](https://img.shields.io/badge/Completed-blue) (no writeup)
 
 | Room | Difficulty |
 |---|---|
