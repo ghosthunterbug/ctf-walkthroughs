@@ -12,14 +12,39 @@ Each room follows the same end-to-end process:
 4. **Privilege escalation** — lateral movement to user/root.
 5. **Writeup** — methodology + commands (no raw flags, no internal IPs).
 
-## Rooms
+## Completed Rooms (21)
 
-- [Bounty Hacker](tryhackme/bounty-hacker) — Boot2Root (FTP anon, hydra, sudo tar privesc)
-- [OWASP Juice Shop](tryhackme/owaspjuiceshop) — Web / OWASP Top 10 (SQLi, broken auth, IDOR, XSS)
-- [Poster](tryhackme/poster) — SQL / Boot2Root (PostgreSQL RCE)
-- [CyberHeroes](tryhackme/cyberheroes) — Authentication Bypass (client-side auth, OWASP A07)
-- [Room 404](tryhackme/room404) — Web enum, exposed `.git`
+### Writeups available
+
+| Room | Difficulty | Focus |
+|---|---|---|
+| [Bounty Hacker](tryhackme/bounty-hacker) | Easy | Boot2Root — FTP anon, hydra, sudo tar privesc |
+| [OWASP Juice Shop](tryhackme/owaspjuiceshop) | Easy | Web / OWASP Top 10 — SQLi, broken auth, IDOR, XSS |
+| [Poster](tryhackme/poster) | Easy | SQL / Boot2Root — PostgreSQL RCE |
+| [CyberHeroes](tryhackme/cyberheroes) | Easy | Authentication Bypass (client-side auth) |
+| [Room 404](tryhackme/room404) | Easy | Web enum, exposed `.git` |
+
+### Completed (no writeup yet)
+
+| Room | Difficulty |
+|---|---|
+| Mr Robot CTF | Medium |
+| Pickle Rick | Easy |
+| Vulnversity | Easy |
+| Anonymous Playground | Hard |
+| Internal | Hard |
+| The Server From Hell | Medium |
+| VulnNet: dotpy | Medium |
+| Crocc Crew | Insane |
+| Oh My WebServer | Medium |
+| Bookstore | Medium |
+| GLITCH | Easy |
+| CyberLens | Easy |
+| W1seGuy | Easy |
+| Snowy ARMageddon | Insane |
+| U.A. High School | Easy |
+| Corp Website | Medium |
 
 ## Tooling
 
-`nmap` · `ffuf` · `gobuster` · `sqlmap` · `hydra` · `nikto` · Burp Suite · Python · Bash
+`nmap` · `ffuf` · `gobuster` · `sqlmap` · `hydra` · `nikto` · `responder` · `bloodhound` · Burp Suite · Metasploit · Python · Bash
