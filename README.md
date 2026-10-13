@@ -12,7 +12,7 @@ Each room follows the same end-to-end process:
 4. **Privilege escalation** — lateral movement to user/root.
 5. **Writeup** — methodology + commands (no raw flags, no internal IPs).
 
-## Completed Rooms (21)
+## Completed Rooms (22)
 
 ### Writeups available
 
@@ -23,6 +23,7 @@ Each room follows the same end-to-end process:
 | [Poster](tryhackme/poster) | Easy | SQL / Boot2Root — PostgreSQL RCE |
 | [CyberHeroes](tryhackme/cyberheroes) | Easy | Authentication Bypass (client-side auth) |
 | [Room 404](tryhackme/room404) | Easy | Web enum, exposed `.git` |
+| [Overpass](tryhackme/overpass) | Easy | Cookie forgery, SSH key cracking, cron + hosts hijack |
 
 ### ![](https://img.shields.io/badge/Completed-blue) (no writeup)
 
