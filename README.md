@@ -12,13 +12,14 @@ Each room follows the same end-to-end process:
 4. **Privilege escalation** — lateral movement to user/root.
 5. **Writeup** — methodology + commands (no raw flags, no internal IPs).
 
-## Completed Rooms (22)
+## Completed Rooms (23)
 
 ### Writeups available
 
 | Room | Difficulty | Focus |
 |---|---|---|
 | [Bounty Hacker](tryhackme/bounty-hacker) | Easy | Boot2Root — FTP anon, hydra, sudo tar privesc |
+| [Blue](tryhackme/blue) | Easy | Windows — MS17-010 EternalBlue, SAM dump, NTLM cracking |
 | [OWASP Juice Shop](tryhackme/owaspjuiceshop) | Easy | Web / OWASP Top 10 — SQLi, broken auth, IDOR, XSS |
 | [Poster](tryhackme/poster) | Easy | SQL / Boot2Root — PostgreSQL RCE |
 | [CyberHeroes](tryhackme/cyberheroes) | Easy | Authentication Bypass (client-side auth) |
